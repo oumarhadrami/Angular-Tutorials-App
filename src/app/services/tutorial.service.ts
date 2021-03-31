@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Tutorial } from '../models/tutorial.model';
 
-const baseUrl = 'http://139.59.190.137/tutorials_api/tutorials_api/v1/tutorials/';
+const baseUrl = 'https://tutorials-mohamed-rest-api.herokuapp.com/tutorials_api/v1/tutorials/';
 
 @Injectable({
   providedIn: 'root'
